@@ -1,0 +1,3 @@
+# Linear Quadratic Regulator
+
+The given code implements Linear Quadratic Regulator (LQR) control to move a caster wheel robot to two goals using open loop control. The LQR controller calculates the control input using the current state of the system and two pre-defined goal states. The motion of the robot is modeled using an ordinary differential equation (ODE). The ODE45 function is then used to solve the ODE and obtain the position and velocity of the robot over time. Finally, a plot is generated which shows the trajectory of the robot as it approaches each of the two goals.
